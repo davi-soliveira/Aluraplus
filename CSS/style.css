@@ -199,9 +199,10 @@ body{
     .container{
         display: flex;
         text-align: center;
-        justify-content: center;
-        
-        
+        justify-content: center; 
+    }
+    .container__caixa{
+        margin: 2em;
     }
     .principal{
         display: contents;
