@@ -180,20 +180,44 @@ body{
     }
     
 }
-@media (max-width:950px) {
-    .dispositivos__lista{
+@media (max-width:850px) {
+    .container__caixa{
+        margin: 2em 2em;
+    }
+    .container__imagem{
+        width: 50%;
+    }
+    .dispositivos{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        margin: 1em 1em;
+    }
+    .dispositivos__titulo{
+        font-size: 2rem;
+    }
+    .secundario__imagem{
+        width: 100%;
+    }
+    .secundario{
+        display:grid;
+        margin: 2em 2em;        
+    }
+    .terciario{
+        display: grid;
+        margin: 2em 2em;
+    }
+    .dispositivos__lista{
+        display: contents;
+        margin: 1em 1em;
+    }
+    .rodape{
+        margin: 2em 1em;
     }
     .rodape__lista{
         display: contents;
         justify-content:center;
         text-align: center; 
     }
-
-    
 }
 @media (max-width:400px) {
     .container{
